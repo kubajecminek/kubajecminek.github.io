@@ -1,0 +1,17 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+theme = "congo"
+baseURL = "https://kubajecminek.cz"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = false
+paginate = 10
+summaryLength = 0
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
+  taxonomy = []
+  term = []

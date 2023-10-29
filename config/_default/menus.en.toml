@@ -1,0 +1,14 @@
+[[main]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 11
+
+[[main]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 12

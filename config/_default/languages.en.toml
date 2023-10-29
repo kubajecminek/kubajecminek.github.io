@@ -1,0 +1,24 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Kuba Ječmínek"
+copyright = "All original content is CC-BY-SA"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  # mainSections = ["section1", "section2"]
+  description = "My awesome website"
+
+[params.author]
+  name = "Kuba Ječmínek"
+  image = "img/author.jpeg"
+  headline = "Python & Judo black belt"
+  bio = "Peace be with you :pray:"
+  links = [
+    { email = "mailto:kuba@kubajecminek.cz" },
+    { github = "https://github.com/kubajecminek" },
+    { linkedin = "https://linkedin.com/in/jakub-ječmínek-035205266" },
+  ]
