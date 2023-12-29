@@ -1,5 +1,5 @@
 ---
-title: 'Emacs Bugfix'
+title: 'I Fixed a Bug in Emacs!'
 date: 2023-06-23T09:41:35+01:00
 type: post
 tags: ['english', 'programming', 'emacs']
