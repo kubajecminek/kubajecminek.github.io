@@ -1,0 +1,11 @@
+<header>
+	<a href="{{ .Site.BaseURL }}" class="dark"><h1>{{ .Site.Title }}</h1></a>
+	{{ with .Site.Menus.main }}
+	<nav>
+		{{ range $i, $e := . }}
+		{{ if $i }} - {{ end }}
+		<a href="{{ .URL | relURL }}">{{ $e.Name }}</a>
+		{{ end }}
+	</nav>
+	{{ end }}
+</header>

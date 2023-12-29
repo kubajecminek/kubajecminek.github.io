@@ -1,0 +1,34 @@
+baseURL = 'https://kubajecminek.cz/'
+languageCode = 'en-us'
+title = 'Kuba Ječmínek'
+enableEmoji = true
+
+[params]
+  [params.author]
+    email = 'kuba@kubajecminek.cz'
+    name = 'Jakub Ječmínek'
+
+[services]
+  [services.rss]
+    limit = 42
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3

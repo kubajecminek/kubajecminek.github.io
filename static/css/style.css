@@ -1,0 +1,40 @@
+html {
+    font: 100%/1.5 sans-serif;
+    margin:1em auto;
+    max-width:38em;
+    padding:0 2%;
+}
+
+code, pre {
+    box-sizing: border-box;
+    border-radius: 1ch;
+}
+
+pre {
+    border-style: solid;
+    border-width: thin;
+    border-color: #D8DEE9;
+    overflow: auto;
+    padding:20px
+}
+
+code {
+    font-size: .9em;
+    word-wrap: break-word;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width:100%
+}
+
+.dark {
+    color: #2E3440;
+}
+
+a, .navbar {
+    color: #BF616A;
+    text-decoration: none;
+}
