@@ -29,11 +29,7 @@ img {
     max-width:100%
 }
 
-.dark {
-    color: #2E3440;
-}
-
 a, .navbar {
-    color: #BF616A;
-    text-decoration: none;
+    color: #0f4f52;
+    text-decoration: underline;
 }

@@ -1,24 +1,14 @@
 {{ define "main" }}
 <main>
 	{{ if or .Title .Content }}
-	<div>
-		{{ with .Title }}<h2>{{ . }}</h2>{{ end }}
-		{{/* --COMMENT
-		{{ if eq .Title "About"}}
-		<br>
-		<center>
-			<img src="{{ "images/me.jpeg" | relURL }}" style="border-radius: 50%;height: auto;object-fit: cover;height: 11rem; width: 11rem;">
-		</center>
-		{{ end }}
-		*/}}
-		{{ with .Content }}<div>{{ . }}</div>{{ end }}
-	</div>
+	{{ with .Title }}<h2>{{ . }}</h2>{{ end }}
+	{{ with .Content }}<div>{{ . }}</div>{{ end }}
 	{{ end }}
-	{{ range (where .Pages "Params.type" "post" ).GroupByDate "2006" }}
+	{{ range .Pages.GroupByDate "2006" }}
 	<h3>{{ .Key }}</h3>
 	<ul>
 	{{ range .Pages }}
-		<li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date}}</li>
+		<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date}}</li>
 	{{ end }}
 	</ul>
 	{{ end }}

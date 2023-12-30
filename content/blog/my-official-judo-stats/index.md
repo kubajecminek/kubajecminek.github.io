@@ -1,7 +1,6 @@
 ---
 title: 'My Official Judo Stats'
 date: 2023-11-12T13:12:40+01:00
-type: post
 tags: ['english', 'judo']
 ---
 *[Scraped from judobase.org and judoinside.com]*
@@ -212,20 +211,21 @@ tags: ['english', 'judo']
 ```
 
 # Media
-![my-judo-img-2](/images/judo_results/2.jpg)
-![my-judo-img-3](/images/judo_results/3.jpg)
-![my-judo-img-4](/images/judo_results/4.jpg)
-![my-judo-img-5](/images/judo_results/5.jpg)
-![my-judo-img-6](/images/judo_results/6.jpg)
-![my-judo-img-7](/images/judo_results/7.jpg)
-![my-judo-img-8](/images/judo_results/8.jpg)
-![my-judo-img-9](/images/judo_results/9.jpg)
-![my-judo-img-10](/images/judo_results/10.jpg)
-![my-judo-img-11](/images/judo_results/11.jpg)
-![my-judo-img-12](/images/judo_results/12.jpg)
-![my-judo-img-13](/images/judo_results/13.jpg)
-![my-judo-img-14](/images/judo_results/14.jpg)
-![my-judo-img-15](/images/judo_results/15.jpg)
+![my-judo-img-2](img/2.jpg)
+![my-judo-img-3](img/3.jpg)
+![my-judo-img-4](img/4.jpg)
+![my-judo-img-5](img/5.jpg)
+![my-judo-img-6](img/6.jpg)
+![my-judo-img-7](img/7.jpg)
+![my-judo-img-8](img/8.jpg)
+![my-judo-img-9](img/9.jpg)
+![my-judo-img-10](img/10.jpg)
+![my-judo-img-11](img/11.jpg)
+![my-judo-img-12](img/12.jpg)
+![my-judo-img-13](img/13.jpg)
+![my-judo-img-14](img/14.jpg)
+![my-judo-img-15](img/15.jpg)
+![my-judo-img-16](img/16.jpg)
 
 # Links
  - [Judobase](https://judobase.ijf.org/#/competitor/profile/9329/basic_info)

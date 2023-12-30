@@ -1,14 +1,8 @@
 <aside>
-	<div>
-		<div>
-			<h4>LATEST BLOG ENTRIES</h4>
-		</div>
-		<div>
-			<ul>
-				{{ range first 5 (where .Site.RegularPages.ByDate.Reverse "Type" "in" "post") }}
-				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-				{{ end }}
-			</ul>
-		</div>
-	</div>
+	<h4>LATEST ENTRIES</h4>
+	<ul>
+		{{ range .Site.RegularPages.ByDate.Reverse | first 5}}
+		<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+		{{ end }}
+	</ul>
 </aside>

@@ -1,11 +1,10 @@
 <header>
-	<a href="{{ .Site.BaseURL }}" class="dark"><h1>{{ .Site.Title }}</h1></a>
-	{{ with .Site.Menus.main }}
+	<a href="{{ .Site.BaseURL }}" style="text-decoration: none; color: black;"><h1>{{ .Site.Title }}</h1></a>
 	<nav>
-		{{ range $i, $e := . }}
+		<a href="{{ .Site.BaseURL }}">Home</a>{{ if .Site.Sections }} - {{ end }}
+		{{ range $i, $e := .Site.Sections }}
 		{{ if $i }} - {{ end }}
-		<a href="{{ .URL | relURL }}">{{ $e.Name }}</a>
+		<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
 		{{ end }}
 	</nav>
-	{{ end }}
 </header>

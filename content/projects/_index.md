@@ -1,6 +1,5 @@
 ---
 title: "Projects"
-type: page
 ---
 Here are some projects :robot: I'm occasionally working on:
 
