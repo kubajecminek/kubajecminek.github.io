@@ -2,8 +2,7 @@
 	<main>
 		<article>
 			<h1>{{ .Title }}</h1>
-			<strong>Published:</strong> <time datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "2006-01-02 15:04:05" }}</time>
-			<br><strong>Read time:</strong> ~{{ .ReadingTime }} min
+			{{ .ReadingTime }} min read · <time datetime="{{ .Date.Format "Jan 2, 2006" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
 			{{ .Content }}
 		</article>
 	</main>
