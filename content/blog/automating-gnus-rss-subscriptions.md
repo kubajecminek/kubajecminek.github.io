@@ -6,7 +6,7 @@ tags: ['english', 'programming', 'emacs']
 [Gnus](https://www.gnu.org/software/emacs/manual/html_node/gnus/) is my favourite news reader; it can read e-mails, RSS and Atom feeds, tweets, Usenet news and more. I was playing around with **nnrss** backend a lot this summer and one thing that I did not particularly like was that you have to subscribe to each RSS feed interactively (or at least this is what official documentation recommends). Luckily this is Emacs so we can change just about anything.
 
 ```
-(setq my-feeds '("Richard Stallman" "https://stallman.org/rss/rss.xml" "Chief GNUisance of the GNU Project"
+(setq my-feeds '(("Richard Stallman" "https://stallman.org/rss/rss.xml" "Chief GNUisance of the GNU Project")
                 ;; Define other feeds right here (title url description)
 		 ))
 
