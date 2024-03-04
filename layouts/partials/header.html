@@ -1,7 +1,6 @@
 <header>
-	<a href="{{ .Site.BaseURL }}" style="text-decoration: none; color: black;"><h1>{{ .Site.Title }}</h1></a>
+	<a href="{{ .Site.BaseURL }}" class="header-link"><h1>{{ .Site.Title }}</h1></a>
 	<nav>
-		<a href="{{ .Site.BaseURL }}">Home</a>{{ if .Site.Sections }} - {{ end }}
 		{{ range $i, $e := .Site.Sections }}
 		{{ if $i }} - {{ end }}
 		<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>

@@ -1,21 +1,46 @@
+:root {
+  --color-background: #fff;
+  --color-text: #000;
+  --font-family: system-ui, sans-serif;
+  --font-weight-link: 600;
+  --font-weight-heading: 600;
+  --line-height-heading: 1.1;
+  --font-size: 1em;
+  --font-size-2: 2em;
+  --max-width: 38em;
+  --border-radius: 1ch
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #000;
+    --color-text: #fff;
+  }
+}
+
 html {
-    font: 100%/1.5 sans-serif;
-    margin:1em auto;
-    max-width:38em;
-    padding:0 2%;
+  margin: var(--font-size) auto;
+  max-width: var(--max-width)
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: var(--font-family);
+  font-size: var(--font-size)
 }
 
 code, pre {
-    box-sizing: border-box;
-    border-radius: 1ch;
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size)
 }
 
 pre {
     border-style: solid;
     border-width: thin;
-    border-color: #D8DEE9;
+    border-color: var(--color-text);
     overflow: auto;
-    padding:20px
+    padding: var(--font-size-2)
 }
 
 code {
@@ -23,13 +48,40 @@ code {
 }
 
 img {
-    display: block;
-    height: auto;
-    margin: auto;
     max-width:100%
 }
 
-a, .navbar {
-    color: #1b365d;
-    text-decoration: underline;
+a,
+a:visited,
+body {
+  color: var(--color-text)
+}
+
+a,
+a:visited {
+  font-weight: var(--font-weight-link)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-heading);
+  line-height: var(--line-height-heading);
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  text-decoration: none
+}
+
+.header-link {
+  text-decoration: none;
+  color: var(--color-text)
 }
