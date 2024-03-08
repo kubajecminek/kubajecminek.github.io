@@ -1,7 +1,7 @@
 ---
 title: 'GoCamp Project Announcement'
 date: 2023-05-23T11:03:59+01:00
-tags: ['english', 'programming', 'golang']
+tags: ['Programming']
 ---
 *[Originally published on LinkedIn]*
 

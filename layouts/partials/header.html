@@ -1,9 +1,9 @@
 <header>
-	<a href="{{ .Site.BaseURL }}" class="header-link"><h1>{{ .Site.Title }}</h1></a>
-	<nav>
-		{{ range $i, $e := .Site.Sections }}
-		{{ if $i }} - {{ end }}
-		<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-		{{ end }}
-	</nav>
+  <a href="{{ .Site.BaseURL }}" class="header-link"><h1>{{ .Site.Title }}</h1></a>
+  <nav>
+    {{ range $i, $e := .Site.Sections }}
+    {{ if $i }} - {{ end }}
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{ end }}
+  </nav>
 </header>

@@ -1,6 +1,7 @@
 ---
 title: "Gnus & ProtonMail Bridge Incompatibility"
 date: 2024-02-16T22:02:16+01:00
+tags: ['Emacs']
 ---
 This story is, as the title suggests, about Gnus (the Emacs newsreader,
 remember?) and [ProtonMail Bridge](https://proton.me/mail/bridge). Gnus can

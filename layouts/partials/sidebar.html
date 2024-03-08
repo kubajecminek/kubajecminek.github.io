@@ -1,8 +1,8 @@
 <aside>
-	<h4>LATEST ENTRIES</h4>
-	<ul>
-		{{ range .Site.RegularPages.ByDate.Reverse | first 5}}
-		<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-		{{ end }}
-	</ul>
+  <h4>LATEST ENTRIES</h4>
+  <ul>
+    {{ range .Site.RegularPages.ByDate.Reverse | first 13}}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
 </aside>

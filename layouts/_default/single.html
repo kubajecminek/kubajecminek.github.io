@@ -1,9 +1,10 @@
 {{ define "main" }}
-	<main>
-		<article>
-			<h1>{{ .Title }}</h1>
-			{{ .ReadingTime }} min read · <time datetime="{{ .Date.Format "Jan 2, 2006" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-			{{ .Content }}
-		</article>
-	</main>
+  <main>
+  <article>
+  <h1>{{ .Title }}</h1>
+  {{ partial "taglist" . }}
+  {{ .ReadingTime }} min read · <time datetime="{{ .Date.Format "Jan 2, 2006" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+  {{ .Content }}
+  </article>
+  </main>
 {{ end }}

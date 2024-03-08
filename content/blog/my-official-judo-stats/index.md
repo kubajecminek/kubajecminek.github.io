@@ -1,7 +1,7 @@
 ---
 title: 'My Official Judo Stats'
 date: 2023-11-12T13:12:40+01:00
-tags: ['english', 'judo']
+tags: ['Judo']
 ---
 *[Scraped from judobase.org and judoinside.com]*
 
