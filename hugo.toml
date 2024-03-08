@@ -10,4 +10,10 @@ enableEmoji = true
 
 [services]
   [services.rss]
-    limit = 42
+    limit = 13
+
+[outputs]
+  home = ['html', 'rss']
+  section = ['html']
+  taxonomy = ['html']
+  term = ['html']
